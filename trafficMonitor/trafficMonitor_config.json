@@ -1,0 +1,18 @@
+{
+  "global": {
+    "pcap": "probeTest.pcap",
+    "trigger": 15
+  },
+  "nodes": [
+    {
+      "node": "env01-stage-probe01",
+      "ip": "10.0.0.10",
+      "interface": "ens160"
+    },
+    {
+      "node": "env02-stage-probe02",
+      "ip": "10.0.0.11",
+      "interface": "enp6s0"
+    }
+  ]
+}
